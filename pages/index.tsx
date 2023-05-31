@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import { Poppins } from '@next/font/google'
+import MainLayout from '@/layouts/MainLayout'
+import HomePage from './Home'
 const poppins = Poppins({
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
   subsets: ['latin'],
@@ -83,7 +85,11 @@ export default function Home() {
         />
         <title>Azar | Site</title>
       </Head>
-      <main className={poppins.className}></main>
+      <main className={poppins.className}>
+        <MainLayout>
+          <HomePage />
+        </MainLayout>
+      </main>
     </>
   )
 }

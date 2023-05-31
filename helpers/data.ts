@@ -22,7 +22,7 @@ const aboutData = {
     },
     {
       title: 'Hobbies',
-      value: 'Sport, read novels, and read comics',
+      value: 'Sports, read novels, and read comics',
       icon: 'ball',
     },
   ],
@@ -73,7 +73,7 @@ const resume = [
     items: [
       {
         title: 'Front End Web Developer Internship, Sagara Technology',
-        date: 'March 2023 – Present',
+        date: 'March 2023 – May 2023',
         gpa: '',
         description: `Handle new features for the original content platform teknologi.id. Fixed bugs and optimized the platform's performance. Resliced the admin dashboard with a new design. Utilized Vue.js with the Quasar framework for development. \n Worked on bug fixes and improved the functionality of techconsulta.com. Implemented responsive design for better user experience. Developed new features to enhance the website. Utilized Next.js as the main tool for server-side rendering.`,
       },

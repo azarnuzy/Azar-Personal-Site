@@ -1,5 +1,13 @@
 import Image from 'next/image'
-import { BiBall, BiEnvelope, BiFootball, BiUser } from 'react-icons/bi'
+import {
+  BiBall,
+  BiBookOpen,
+  BiEnvelope,
+  BiFootball,
+  BiStar,
+  BiTrophy,
+  BiUser,
+} from 'react-icons/bi'
 import { BsMap } from 'react-icons/bs'
 import {
   FaHtml5,
@@ -11,6 +19,8 @@ import {
   FaSass,
   FaLocationArrow,
   FaMapMarkerAlt,
+  FaSuitcase,
+  FaGraduationCap,
 } from 'react-icons/fa'
 import {
   SiNextdotjs,
@@ -79,6 +89,16 @@ const GetIcon: React.FC<GetIconProps> = ({ name }) => {
       return <SiGithub className='text-2xl text-dark-gray text-current' />
     case 'Gitlab':
       return <SiGitlab className='text-2xl text-orange-500 text-current' />
+    case 'suitCase':
+      return <FaSuitcase className='text-orange-red font-black text-2xl' />
+    case 'trophy':
+      return <BiTrophy className='text-orange-red font-black text-2xl' />
+    case 'star':
+      return <BiStar className='text-orange-red font-black text-2xl' />
+    case 'graduationCap':
+      return <FaGraduationCap className='text-orange-red font-black text-2xl' />
+    case 'bookOpen':
+      return <BiBookOpen className='text-orange-red font-black text-2xl' />
     case 'user':
       return (
         <BiUser

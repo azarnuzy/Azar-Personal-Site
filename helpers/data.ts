@@ -48,7 +48,9 @@ const aboutData = {
 
 const resume = [
   {
-    education: [
+    title: 'Education',
+    icon: 'bookOpen',
+    items: [
       {
         title: 'Bachelor Degree, Universitas Pendidikan Indonesia',
         date: 'Sept 2020 – Present',
@@ -66,97 +68,123 @@ const resume = [
     ],
   },
   {
-    experiences: [
+    title: 'Experiences',
+    icon: 'suitCase',
+    items: [
       {
         title: 'Front End Web Developer Internship, Sagara Technology',
         date: 'March 2023 – Present',
-        descriptions: [
-          "Responsible for building new features for the original content platform teknologi.id. Fixed bugs and optimized the platform's performance. Resliced the admin dashboard with a new design. Utilized Vue.js with the Quasar framework for development.",
-          'Worked on bug fixes and improved the functionality of techconsulta.com. Implemented responsive design for better user experience. Developed new features to enhance the website. Utilized Next.js as the main tool for server-side rendering.',
-        ],
+        gpa: '',
+        description: `Handle new features for the original content platform teknologi.id. Fixed bugs and optimized the platform's performance. Resliced the admin dashboard with a new design. Utilized Vue.js with the Quasar framework for development. \n Worked on bug fixes and improved the functionality of techconsulta.com. Implemented responsive design for better user experience. Developed new features to enhance the website. Utilized Next.js as the main tool for server-side rendering.`,
       },
       {
         title: 'Front End Web Developer Internship, Library UPI',
         date: 'February 2023 – April 2023',
-        descriptions: [
+        gpa: '',
+        description:
           'Developed a responsive chatbot website using React.js during my internship at Library UPI. Integrated the chatbot with API services to enable seamless interaction with the library, information retrieval, and service access. Implemented a night mode feature.',
-        ],
       },
       {
         title: 'Freelance Web Developer, Bandung',
         date: 'January 2022 – Present',
-        descriptions: [
+        gpa: '',
+        description:
           'Developed new user-facing features, determining the structure and design of web pages, building reusable codes, optimizing page loading times, and using some languages to create the web page.',
-        ],
       },
     ],
   },
   {
-    courses: [
+    title: 'Courses',
+    icon: 'graduationCap',
+    items: [
       {
         title: 'Front-End Javascript React, Binar Academy',
         date: 'July 2022 – Jan 2023',
+        gpa: '',
+        description: '',
       },
       {
         title: 'Front-End Web Developer Expert, Dicoding Indonesia',
         date: 'Dec 2021 – Jan 2022',
+        gpa: '',
+        description: '',
       },
       {
         title:
           'Junior Web Developer, Badan Nasional Sertifikasi dan Profesi (BNSP)',
         date: 'Sept 2021 – Oct 2021',
+        gpa: '',
+        description: '',
       },
     ],
   },
   {
-    volunteering: [
+    title: 'Volunteering',
+    icon: 'star',
+    items: [
       {
         title: 'Core Team, Google Developer Student Clubs UPI',
         date: 'Sept 2022 – Present',
+        gpa: '',
         description:
           'Create and plan an event that held by Google Developer Student Clubs UPI and also stream that event with OBS platform',
       },
       {
         title: 'Streaming Division, P3RI Salman ITB 1443 H Bandung',
         date: 'March 2022 – May 2022',
+        gpa: '',
         description:
           'Streaming during ramadhan activities at Masjid Salman ITB Using OBS as the main tool for streaming',
       },
     ],
   },
   {
-    honorsRewards: [
+    title: 'Honors & Rewards',
+    icon: 'trophy',
+    items: [
       {
         title: 'Top 10 Warriors in Code Run Frontend Warriors, Algobash ',
         date: 'Dec 2022',
+        gpa: '',
+        description: '',
       },
       {
         title:
           '3rd Place Competitive Programming Competition Dimas-TI AMLI 2022, Asosiasi MIPA LPTK Indonesia',
         date: 'June 2022 ',
+        gpa: '',
+        description: '',
       },
       {
         title: 'Awardee Bank Indonesia Scholarships 2022, Bank Indonesia',
         date: 'April 2022 - Present',
+        gpa: '',
+        description: '',
       },
       {
         title:
           '1st Place Competitive Programming Competition DoIt 2021, Universitas Singaperbangsa',
         date: 'June 2021',
+        gpa: '',
+        description: '',
       },
     ],
   },
   {
-    organizations: [
+    title: 'Organizations',
+    icon: 'star',
+    items: [
       {
         title: 'Generasi Baru Indonesia UPI',
         date: 'April 2022 – Present',
+        gpa: '',
         description:
           'Generasi Baru Indonesia (GenBI) is a community consisting of students receiving Bank Indonesia scholarships under Bak Indonesia. Successfully run a program to develop UMKM in one of the villages in Bandung in order to support the G20 and I was in charge of logistic division',
       },
       {
         title: 'BEM Kemakom FPMIPA UPI',
         date: 'Jan 2022 – Jan 2023',
+        gpa: '',
         description:
           'Succeeded in holding a public lecture with the theme of cyber security by presenting one of the competent speakers in that field and I was the head of the event',
       },

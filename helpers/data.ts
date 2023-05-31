@@ -195,53 +195,113 @@ const resume = [
 const projects = [
   {
     title: 'Tax Consultant Website',
-    type: '',
+    type: 'Website',
     description:
       'Build using Next.js, website for tax consultants using Next.js. This website provides users with a seamless experience to inquire about consultation schedules. There is admin page for manage the consultation schedules',
-    linkProject: '',
-    linkGithub: '',
+    linkProject: 'https://konsultan-pajak.netlify.app/',
+    linkGithub: 'https://github.com/azarnuzy/konsultan-pajak',
     techStack: '',
-    imgUrl: '',
+    imgUrl: 'taxconsultant.png',
+  },
+  {
+    title: 'Chatbot Library UPI',
+    type: 'Website',
+    description:
+      'A responsive chatbot website using React.js. Integrated the chatbot with API services to enable seamless interaction with the library, information retrieval, and service access. Implemented a night mode feature',
+    linkProject: 'https://v1-dev-chatbot-upi.netlify.app/',
+    linkGithub: 'https://github.com/azarnuzy/chatbot-library-upi',
+    techStack: 'React JS',
+    imgUrl: 'chatbot.png',
   },
   {
     title: 'SDN Ciwaregu Website',
-    type: '',
+    type: 'Website',
     description:
       'Build using Next.js, the SDN Ciwaregu website provides information about the school and includes a registration feature for new students. It also features an admin page for managing content and registrations.',
-    linkProject: '',
-    linkGithub: '',
+    linkProject: 'https://v1-dev-sdciwaregu.netlify.app/',
+    linkGithub: 'https://github.com/azarnuzy/sd-ciwaregu-1-fe',
     techStack: '',
-    imgUrl: '',
+    imgUrl: 'sdciwaregu.png',
   },
   {
     title: 'Personal Portofolio Website',
-    type: '',
+    type: 'Website',
     description:
       'Personal portfolio that can be easily used by anyone by following the instructions in the GitHub repository. Built with Next.js, this portfolio template features a dark mode and responsive design.',
-    linkProject: '',
-    linkGithub: '',
+    linkProject: 'https://azar-personal-site.netlify.app/',
+    linkGithub: 'https://github.com/azarnuzy/Personal-Website',
     techStack: '',
-    imgUrl: '',
+    imgUrl: 'personalsite.png',
   },
   {
     title: 'E-Flight Web App',
-    type: '',
+    type: 'Website',
     description:
       'A website to book flights was built using react for frontend and java for backend. My role for this project as a frontend lead.',
-    linkProject: '',
-    linkGithub: '',
+    linkProject: 'https://flyket.netlify.app/',
+    linkGithub: 'https://github.com/azarnuzy/E-Flight-Final-Project',
     techStack: '',
-    imgUrl: '',
+    imgUrl: 'eflight.png',
   },
   {
     title: 'SiManuk (Sistem Informasi Peminjaman Ruangan Kampus)',
-    type: '',
+    type: 'Website',
     description:
       'A website to provide availability room in campus so people inside campus can rent the room easily. This website was built using Laravel and bootstrap.',
     linkProject: '',
-    linkGithub: '',
+    linkGithub: 'https://github.com/azarnuzy/Rent-Room-App',
     techStack: '',
-    imgUrl: '',
+    imgUrl: 'simanuk.jpg',
+  },
+  {
+    title: 'Chatbot Library UPI',
+    type: 'Website',
+    description:
+      'A responsive chatbot website using React.js. Integrated the chatbot with API services to enable seamless interaction with the library, information retrieval, and service access. Implemented a night mode feature',
+    linkProject: 'https://v1-dev-chatbot-upi.netlify.app/',
+    linkGithub: 'https://github.com/azarnuzy/chatbot-library-upi',
+    techStack: 'React JS',
+    imgUrl: 'chatbot.png',
+  },
+  {
+    title: 'Movie Catalog',
+    type: 'Website',
+    description:
+      'A website to provide up to date movie catalog. The source movie data are from https://developers.themoviedb.org/3 and this web app was built by ReactJs and Redux',
+    linkProject: 'http://new-react-movie-db-app-with-redux.vercel.app/',
+    linkGithub: 'https://github.com/azarnuzy/New-React-Movie-DB-App-with-Redux',
+    techStack: 'React JS',
+    imgUrl: 'movielist.png',
+  },
+  {
+    title: 'Recipe Catalog',
+    type: 'Website',
+    description:
+      'A website to provide recipe catalog. The source recipe data are from https://www.themealdb.com/api.php and this web app was built by ReactJs',
+    linkProject: 'https://meal-db-reactjs.netlify.app/',
+    linkGithub: 'https://github.com/azarnuzy/meal-db-react-js',
+    techStack: 'React JS',
+    imgUrl: 'recipe.png',
+  },
+  {
+    title: 'Restaurant Catalog',
+    type: 'Website',
+    description:
+      'A website to provide restaurant catalog. This project is built to completed expert front end course in dicoding and the tech stack is using html, css, and vanilla javascript',
+    linkProject: 'https://azarnuzy.github.io/Restaurant-Apps/',
+    linkGithub: 'https://github.com/azarnuzy/Restaurant-Apps',
+    techStack: '',
+    imgUrl: 'resto.png',
+  },
+  {
+    title: 'Online Course Landing Page',
+    type: 'Website',
+    description:
+      'Landing page website to offer online course to student who want to test to join the high school',
+    linkProject: 'https://azarnuzy.github.io/courseMateBundle/',
+    linkGithub: 'https://github.com/azarnuzy/CourseMate',
+    techStack: '',
+    imgUrl: 'coursemate.jpg',
   },
 ]
 

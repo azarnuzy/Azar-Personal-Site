@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import { Poppins } from '@next/font/google'
 import MainLayout from '@/layouts/MainLayout'
-import HomePage from './Home'
+import HomePage from './homepage'
+
 const poppins = Poppins({
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
   subsets: ['latin'],

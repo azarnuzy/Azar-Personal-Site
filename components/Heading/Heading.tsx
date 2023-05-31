@@ -9,6 +9,8 @@ import {
 } from 'react-icons/bs'
 import Image from 'next/image'
 import Link from 'next/link'
+const LINK_CV = 'CV_Muhammad_Azar_Nuzy.pdf'
+
 const Heading = () => {
   return (
     <div className='hero-background relative overflow-hidden '>
@@ -26,18 +28,18 @@ const Heading = () => {
             , my name is Azar
           </div>
           <div className='text-3xl md:text-5xl font-bold text-dark-gray mt-7'>
-            I'M WEB DEVELOPER
+            I'M FRONT END WEB DEVELOPER
           </div>
           <div className='text-lg font-medium mt-6 text-dark-gray-2 tracking-wider'>
             Based in Bandung, Indonesia
           </div>
           <div className='relative w-full flex justify-center md:justify-start  mt-8'>
-            <Link
+            <a
+              href={`/${LINK_CV}`}
               className='absolute z-10 w-36 h-10 flex justify-center py-2 bg-orange-red text-white rounded-sm tracking-wider shadow-md'
-              href='/cv_m_azar_nuzy.pdf'
             >
               Download CV
-            </Link>
+            </a>
             <button className='absolute z-0 top-2 translate-x-1 w-36 h-10 flex justify-center py-2 bg-dark-gray text-white rounded-sm tracking-wider shadow-md'></button>
           </div>
         </div>

@@ -14,7 +14,7 @@ const LINK_CV = 'CV_Muhammad_Azar_Nuzy.pdf'
 const Heading = () => {
   return (
     <div className='hero-background relative overflow-hidden '>
-      <div className='flex flex-col md:flex-row md:justify-start max-w-5xl w-full md:mx-auto items-center mt-28'>
+      <div className='flex flex-col  md:flex-row md:justify-start max-w-5xl w-full md:mx-auto items-center mt-28'>
         <div className='flex flex-col md:items-start md:-mt-10 items-center w-full md:mx-5'>
           <div className='tracking-wider text-dark-gray font-semibold text-xl md:text-2xl flex'>
             Hi{' '}
@@ -27,7 +27,7 @@ const Heading = () => {
             />
             , my name is Azar
           </div>
-          <div className='text-3xl md:text-5xl font-bold text-dark-gray mt-7'>
+          <div className='text-center mx-auto text-3xl md:text-5xl font-bold text-dark-gray mt-7'>
             I&apos;M FRONT END WEB DEVELOPER
           </div>
           <div className='text-lg font-medium mt-6 text-dark-gray-2 tracking-wider'>

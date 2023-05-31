@@ -73,7 +73,7 @@ const HomePage = () => {
         <h2 className='mt-5 mx-5 font-bold text-3xl text-dark-gray mb-3'>
           My Skills
         </h2>
-        <div className='grid md:grid-cols-4 grid-cols-2 gap-2 mx-5'>
+        <div className='grid md:grid-cols-4 grid-cols-1 sm:grid-cols-2 gap-2 mx-5'>
           {data.skills.map((item, i) => (
             <div
               className={`border border-1 border-solid border-dark-gray flex p-2 items-center ${getBgColor(

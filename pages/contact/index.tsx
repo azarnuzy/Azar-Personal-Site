@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import emailjs from '@emailjs/browser'
 import Swal from 'sweetalert2'
 import MainLayout from '@/layouts/MainLayout'
@@ -9,7 +9,10 @@ const Contact = () => {
   const [email, setEmail] = useState<string>()
   const [subject, setSubject] = useState<string>()
   const [message, setMessage] = useState<string>()
-  window.scrollTo(0, 0)
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
 

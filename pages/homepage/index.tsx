@@ -79,6 +79,7 @@ const HomePage = () => {
               className={`border border-1 border-solid border-dark-gray flex p-2 items-center ${getBgColor(
                 i
               )} gap-3`}
+              key={i}
             >
               <div
                 className={`border border-1 border-dark-gray bg-white p-3 flex items-center justify-center`}

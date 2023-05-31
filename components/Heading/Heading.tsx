@@ -28,7 +28,7 @@ const Heading = () => {
             , my name is Azar
           </div>
           <div className='text-3xl md:text-5xl font-bold text-dark-gray mt-7'>
-            I'M FRONT END WEB DEVELOPER
+            I&apos;M FRONT END WEB DEVELOPER
           </div>
           <div className='text-lg font-medium mt-6 text-dark-gray-2 tracking-wider'>
             Based in Bandung, Indonesia

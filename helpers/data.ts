@@ -72,6 +72,13 @@ const resume = [
     icon: 'suitCase',
     items: [
       {
+        title: 'Front End Web Developer Internship, M-Knows Consulting',
+        date: 'Aug 2023 – Dec 2023',
+        gpa: '',
+        description: `Responsible to develop kampusgratis.id website using Next.js and Nx Monorepo. Manage specific features of dashboard, quiz, study plan, authentications, etc. at kampusgratis.id.
+        `,
+      },
+      {
         title: 'Front End Web Developer Internship, Sagara Technology',
         date: 'March 2023 – May 2023',
         gpa: '',
@@ -143,6 +150,12 @@ const resume = [
     icon: 'trophy',
     items: [
       {
+        title: '1st Place in Dev Up Rising Frontend Development, Algobash ',
+        date: 'Aug 2023',
+        gpa: '',
+        description: '',
+      },
+      {
         title: 'Top 10 Warriors in Code Run Frontend Warriors, Algobash ',
         date: 'Dec 2022',
         gpa: '',
@@ -193,6 +206,36 @@ const resume = [
 ]
 
 const projects = [
+  {
+    title: 'Hiazee Website',
+    type: 'Website',
+    description:
+      "The 'Hiazee' e-commerce website, dedicated to decorative plants, has been meticulously crafted with Next.js, React Query, Recoil, and Tailwind CSS. This guarantees a swift, responsive, and visually engaging online shopping experience.",
+    linkProject: 'https://hiazee.com',
+    linkGithub: '-',
+    techStack: '',
+    imgUrl: 'hiazee.png',
+  },
+  {
+    title: 'Golden Lamian Landing Page',
+    type: 'Website',
+    description:
+      "Developed 'Golden Lamian Landing Page' using Next.js and Tailwind CSS, achieving exceptional scores of 99 for performance, 95 for accessibility, perfect SEO at 100, and implementing PWA for an optimal user experience.",
+    linkProject: 'https://golden-lamian.vercel.app',
+    linkGithub: '-',
+    techStack: '',
+    imgUrl: 'golden-lamian.png',
+  },
+  {
+    title: 'OPAC (Online Public Access Catalog) Library UPI',
+    type: 'Website',
+    description:
+      "Developed an OPAC using React JS, providing an efficient and user-friendly platform for accessing the university's vast library resources. Implemented a responsive design, advanced search functionalities, and intuitive navigation to enhance the overall user experience.",
+    linkProject: 'https://perpustakaan.upi.edu/opacnew/opac/',
+    linkGithub: '-',
+    techStack: '',
+    imgUrl: 'opac.png',
+  },
   {
     title: 'Tax Consultant Website',
     type: 'Website',

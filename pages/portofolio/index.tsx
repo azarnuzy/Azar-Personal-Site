@@ -46,16 +46,30 @@ function PortofolioPage() {
                     {item.title}
                   </h2>
                   <p className='text-dark-gray-2 text-md'>{item.description}</p>
-                  <a
-                    href={`${item.linkProject}`}
-                    target='_blank'
-                    className='relative transform w-full flex justify-start mt-8 mb-20 group text-md'
-                  >
-                    <button className='absolute z-10 w-36 h-10 flex justify-center py-2 bg-orange-red text-white rounded-sm tracking-wider shadow-md group-hover:bg-dark-gray transition duration-300 ease-in-out'>
-                      VIEW PROJECT
-                    </button>
-                    <button className='absolute z-0 top-2 translate-x-1 w-36 h-10 flex justify-center py-2 bg-dark-gray text-white rounded-sm tracking-wider shadow-md group-hover:bg-orange-red transition duration-300 ease-in-out'></button>
-                  </a>
+                  <div className='flex gap-2 items-center'>
+                    <a
+                      href={`${item.linkProject}`}
+                      target='_blank'
+                      className='relative transform w-full flex justify-start mt-8 mb-20 group text-md'
+                    >
+                      <button className='absolute z-10 w-36 h-10 flex justify-center py-2 bg-orange-red text-white rounded-sm tracking-wider shadow-md group-hover:bg-dark-gray transition duration-300 ease-in-out'>
+                        VIEW PROJECT
+                      </button>
+                      <button className='absolute z-0 top-2 translate-x-1 w-36 h-10 flex justify-center py-2 bg-dark-gray text-white rounded-sm tracking-wider shadow-md group-hover:bg-orange-red transition duration-300 ease-in-out'></button>
+                    </a>
+                    {item.linkGithub && (
+                      <a
+                        href={`${item.linkGithub}`}
+                        target='_blank'
+                        className='relative transform w-full flex justify-start mt-8 mb-20 group text-md'
+                      >
+                        <button className='absolute z-10 w-36 h-10 flex justify-center py-2 bg-orange-red text-white rounded-sm tracking-wider shadow-md group-hover:bg-dark-gray transition duration-300 ease-in-out'>
+                          VIEW GITHUB
+                        </button>
+                        <button className='absolute z-0 top-2 translate-x-1 w-36 h-10 flex justify-center py-2 bg-dark-gray text-white rounded-sm tracking-wider shadow-md group-hover:bg-orange-red transition duration-300 ease-in-out'></button>
+                      </a>
+                    )}
+                  </div>
                 </div>
               </div>
             )

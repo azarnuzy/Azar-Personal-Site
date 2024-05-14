@@ -207,11 +207,22 @@ const resume = [
 
 const projects = [
   {
+    title: 'GenBi UPI',
+    type: 'Website',
+    description:
+      'Developed a website for GenBI UPI using Next.js and Tailwind CSS. This website provides information about the organization and its activities.',
+    linkProject: 'https://www.genbiupi.com',
+    linkGithub:
+      'https://github.com/azarnuzy/CMS-and-Landing-Page-Organization-GenBI-UPI-Next-JS',
+    techStack: 'NextJs, Tailwind CSS',
+    imgUrl: 'genbi.png',
+  },
+  {
     title: 'Hiazee Website',
     type: 'Website',
     description:
       "The 'Hiazee' e-commerce website, dedicated to decorative plants, has been meticulously crafted with Next.js, React Query, Recoil, and Tailwind CSS. This guarantees a swift, responsive, and visually engaging online shopping experience.",
-    linkProject: 'https://hiazee.com',
+    linkProject: 'https://www.hiazee.com/',
     linkGithub: '-',
     techStack: '',
     imgUrl: 'hiazee.png',
